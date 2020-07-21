@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Trillo | Flexbox</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <img src="img/logo.png" class="logo" alt="">
+
+            <div class="search">
+                <input class="search-input" placeholder="Search here" type="text" />
+                <div class="search-button">
+
+                    <svg class="search-icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="icon-box">
+                    <svg class="user-icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="icon-text">6</span>
+                </div>
+                <div class="icon-box">
+                    <svg class="user-icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="icon-text">13</span>
+                </div>
+                <div class="user-img-box">
+                    <img src="img/user.jpg" class="user-img" alt="">
+                    <span class="img-text">smith</span>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-item side-item-hotel">
+                        <a href="javascript:voide(0);" class="side-link">
+                            <svg class="side-icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span class="side-text">hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-item">
+                        <a href="javascript:voide(0);" class="side-link">
+                            <svg class="side-icon">
+                                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span class="side-text">flight</span>
+                        </a>
+                    </li>
+                    <li class="side-item">
+                        <a href="javascript:voide(0);" class="side-link">
+                            <svg class="side-icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span class="side-text">car rental</span>
+                        </a>
+                    </li>
+                    <li class="side-item">
+                        <a href="javascript:voide(0);" class="side-link">
+                            <svg class="side-icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span class="side-text">tours</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    &copy; 2017 by Trillo. All right reserved.
+                </div>
+            </nav>
+
+
+            <main class="main">
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="img/hotel-1.jpg" alt="hotel pic1" class="gallery-photo">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/hotel-2.jpg" alt="hotel pic2" class="gallery-photo">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/hotel-3.jpg" alt="hotel pic3" class="gallery-photo">
+                    </div>
+                </div>
+
+                <div class="overview">
+
+                    <div class="overview-heading">
+                        hotel las palmas
+                    </div>
+
+                    <div class="overview-icons">
+                        <svg class="overview-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+
+                    <div class="overview-location">
+                        <div class="overview-icons">
+                            <svg class="overview-location-pin">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                        </div>
+                        <button class="overview-location-btn">
+                            Sariya's, Faisalabad
+                            </botton>
+                    </div>
+
+                    <div class="overview-rating">
+                        <div class="overview-rating-average">8.6</div>
+                        <div class="overview-rating-count">429 votes</div>
+                    </div>
+                </div>
+
+                <div class="details-section">
+                    <div class="detail">
+                        <div class="detail-paragraphs">
+                            <div class="detail-para">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos laborum neque
+                                    dolorum ipsa qui tenetur aspernatur facere architecto, quo soluta? Facere rem
+                                    doloribus
+                                    quaerat dolorem, nihil exercitationem quo. Exercitationem?</p>
+                            </div>
+
+                            <div class="detail-para">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat velit voluptas,
+                                    dolorem suscipit iure consequuntur in voluptatibus error quibusdam aliquid modi.</p>
+                            </div>
+                        </div>
+
+                        <ul class="detail-list">
+                            <li class="detail-list-item">Close to the beach</li>
+                            <li class="detail-list-item">Breakfast included</li>
+                            <li class="detail-list-item">Free airpot shuttle</li>
+                            <li class="detail-list-item">Free wifi in all rooms</li>
+                            <li class="detail-list-item">Air conditioning and heating</li>
+                            <li class="detail-list-item">Pets Allowed</li>
+                            <li class="detail-list-item">We keep all languages</li>
+                            <li class="detail-list-item">Perfect for families</li>
+                        </ul>
+
+                        <div class="detail-recommend">
+                            <div class="detail-recommend-para">Lucy and three other friends recommend this hotel.</div>
+                            <div class="detail-recommend-images">
+                                <img src="./img/user-3.jpg" class="detail-recommend-img" alt="">
+                                <img src="./img/user-4.jpg" class="detail-recommend-img" alt="">
+                                <img src="./img/user-5.jpg" class="detail-recommend-img" alt="">
+                                <img src="./img/user-6.jpg" class="detail-recommend-img" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="details-comments">
+                        <div class="comment">
+                            <div class="comment-text">A diam sollicitudin tempor id eu nisl nunc mi ipsum. Enim tortor
+                                at auctor urna nunc id cursus metus aliquam.
+                            </div>
+                            <div class="comment-user">
+                                <div class="comment-user-image">
+                                    <img src="./img/user-1.jpg" alt="" class="comment-user-img">
+                                </div>
+                                <div class="comment-detail">
+                                    <div class="comment-user-name">Nick smith</div>
+                                    <div class="comment-user-date">Feb 23, 2019</div>
+                                </div>
+                                <div class="comment-user-rating">8.7</div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment-text">Non tellus orci ac auctor augue mauris augue neque gravida. Proin
+                                sed libero enim sed faucibus.
+                            </div>
+                            <div class="comment-user">
+                                <div class="comment-user-image">
+                                    <img src="./img/user-2.jpg" alt="" class="comment-user-img">
+                                </div>
+                                <div class="comment-detail">
+                                    <div class="comment-user-name">Marry thomas</div>
+                                    <div class="comment-user-date">Dec 12, 2018</div>
+                                </div>
+                                <div class="comment-user-rating">9.3</div>
+                            </div>
+                        </div>
+
+                        <button class="comment-section-btn">Show All <span>&rarr;</span></botton>
+                    </div>
+                </div>
+
+                <div class="cta">
+                    <h2 class="cta-text">
+                        Good News! We have 4 free rooms for your selected dates.
+                    </h2>
+                    <button class="cta-button">
+                        <span class="cta-button-display">Book Now</span>
+                        <span class="cta-button-hidden">Only 4 rooms left</span>
+                    </button>
+
+                </div>
+
+
+
+            </main>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
